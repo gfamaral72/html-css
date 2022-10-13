@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid blue;
+            padding: 10px;
+        }
+
+        tr#media {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 14 - Tabela Completa</h1>
+
+    <table>
+        <caption>Tabela de Notas</caption>
+        <tbody>
+            
+            <tr id="media">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+
+            <tr id="media">
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td> 
+                <td>7,2</td>
+                <td>2,2</td>
+                <td>4,7</td>              
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>5,1</td>
+                <td>6,8</td> 
+                <td>5,9</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>10</td>
+                <td>1,4</td> 
+                <td>5,7</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>3,8</td>
+                <td>8,3</td> 
+                <td>6,05</td>
+            </tr>
+            
+            <tr id="media">
+                <th colspan="4" >Média de Exatas</th>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>7,2</td>
+                <td>2,2</td>
+                <td>7,5</td> 
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>3,2</td>
+                <td>5,2</td>
+                <td>4,7</td>
+            </tr>
+
+            <tr id="media">
+                <th colspan="4">Média de Humanas</th>
+                <td>5</td>
+            </tr>
+        </tbody>
+
+
+
+    </table>
+</body>
+</html>
