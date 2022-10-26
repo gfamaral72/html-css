@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 008</title>
+</head>
+<body>
+    <h1>Exemplo Formulário 008</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="in01">Número 1: </label>
+            <input type="number" name="n01" id="in01" min="0" max="50" required oninput="isoma.innerHTML = Number(in01.value) + Number(in02.value)">
+        </p>
+
+        <p>
+            <label for="in02">Número 2: </label>
+            <input type="number" name="n02" id="in02" min="0" max="50" required oninput="isoma.innerHTML = Number(in01.value) + Number(in02.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma: </label>
+            <output name="soma" id="isoma">0</output>
+        
+        </p>
+        
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+</body>
+</html>
